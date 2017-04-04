@@ -1,0 +1,162 @@
+body{
+	margin: 0
+	padding: 0;
+}
+
+@font-face {
+ font-family: pacifico;
+ src: url("fonts/Pacifico.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: pacifico;
+ src: url("fonts/Pacifico.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: bebas;
+ src: url("fonts/bebas.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: bebas;
+ src: url("fonts/bebas.TTF") /* TTF file for CSS3 browsers */
+}
+
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+
+}
+.header{
+	/*border: 2px solid red; */
+	overflow: hidden;
+
+}
+
+.logo{
+	/*border: 2px solid green; */
+	float: left;
+	width: 25%;
+	font-family: pacifico;
+}
+
+.menus{
+	/*border: 2px solid blue;*/
+	float: right;
+	width: 69%;
+}
+
+.menus ul{
+	list-style: none;
+	padding-left: 50px;
+	/*border: 2px solid red;*/
+
+}
+
+.menus ul li{
+	display: inline-block;
+	font-weight: bold;
+	color: grey;
+	font-family: bebas;
+}
+
+.menus ul li span{
+	display: block;
+		font-weight: bold;
+		color: black;
+		}
+
+.slider{
+	/*border: 2px solid red;*/
+	position: relative;
+	
+	
+}
+
+.slider_image img{				
+	width: 100%;
+}
+
+.slider_text{
+	
+	position: absolute;
+	padding: 10px 15px;
+	bottom: 3px;
+	left: 0;
+	color: white;
+	background-color: grey;
+	width: 20%;
+	/*border: 2px solid red;*/
+
+}
+
+.slider_text h1, .slider_text h4{
+	margin: 0;
+		text-transform: uppercase;
+		font-family: bebas;
+}
+
+.slider_content{
+	margin-top: 30px;
+}
+
+.project{
+	/*border: 2px solid blue;*/
+	width: 32%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+.project_title{
+	overflow: hidden;
+	
+}
+
+.project_image{
+	/*border: 2px solid green;*/
+	float: left;
+	width: 20%;
+	padding-top: 30px;
+}
+
+.pro_title{
+	/*border: 2px solid black;*/
+	float: right;
+	width: 75%;
+	padding-right: 10px;
+		text-transform: uppercase;
+		font-family: bebas;
+
+}
+
+.work {
+	border: 2px solid red;
+	background: grey;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.work_header {
+	/*border: 2px solid blue;*/
+	text-align: center;
+	background: white;
+	margin-left: -10px;
+	margin-right: -10px;
+	text-transform: uppercase;
+
+}
+
+.works {
+/*border: 2px solid green;*/
+	width: 24.5%;
+	display: inline-block;
+}
+
+.cta span{
+	font-weight: bold;
+}
+	
+.work_title {
+	font-family: bebas;
+}
